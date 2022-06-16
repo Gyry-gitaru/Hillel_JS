@@ -1,0 +1,12 @@
+.form_inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed red;
+    width: 500px;
+    padding: 20px;
+}
+
+.form_inner_input {
+    margin-bottom: 15px;
+}
