@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form_container">
+        <form class="form_container_active">
+            <div class="form_inner">
+                <h3 class="form_inner_text">We would like to know about you</h3>
+                <label>
+                    <input type="text" placeholder="Name" class="form_inner_input">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Surname" class="form_inner_input">
+                </label>
+                <label>
+                    <input type="text" placeholder="Age" class="form_inner_input">
+                </label>
+
+
+                <textarea placeholder="Your hobby" rows="3" class="form_inner_input"></textarea>
+                <p class="form_inner_paragraph">How to answer you?</p>
+                <label>
+                    <input type="tel" name="phone" placeholder="Phone number" pattern="^\+[0-9]{3}\s\(\d+)\-\d{3}-\d{2}-\d{2}" minlength="13" maxlength="13" class="form_inner_input">
+                </label>
+                <label>
+                    <input type="email" placeholder="Email" class="form_inner_input">
+                </label>
+                <label>
+                    <input type="submit" value="Send message" class="form_inner_button">
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <script src="./index.js"> 
+    </script>
+</body>
+</html>
