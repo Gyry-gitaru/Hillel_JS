@@ -1,10 +1,12 @@
-// const userAge = prompt('Please enter your age');
+// const userAge = +prompt('Please enter your age');
+// const remainder = userAge % 100;
 
-
-// if (userAge == 1 || userAge == 21 || userAge == 31 || userAge == 41 || userAge == 51 || userAge == 61 || userAge == 71 || userAge == 81 || userAge == 91 || userAge == 101) {
+// if (remainder == 1 || remainder == 21 || remainder == 31 || remainder == 41 || remainder == 51 || remainder == 61 || remainder == 71 || remainder == 81 || remainder == 91) {
 //     alert('Вам' + ' ' + userAge + ' ' + 'рік');
-// } else if (userAge >= 2 && userAge <=4 || userAge >= 22 && userAge <=24 || userAge >= 32 && userAge <=34 || userAge >= 42 && userAge <=44 || userAge >= 52 && userAge <=54 || userAge >= 62 && userAge <=64 || userAge >= 72 && userAge <=74 || userAge >= 82 && userAge <=84 || userAge >= 92 && userAge <=94 || userAge >= 102 && userAge <=104) {
+// } else if (remainder >= 2 && remainder <=4 || remainder >= 22 && remainder <=24 || remainder >= 32 && remainder <=34 || remainder >= 42 && remainder <=44 || remainder >= 52 && remainder <=54 || remainder >= 62 && remainder <=64 || remainder >= 72 && remainder <=74 || remainder >= 82 && remainder <=84 || remainder >= 92 && remainder <=94) {
 //     alert('Вам' + ' ' + userAge + ' ' + 'рокu');
-// } else if (userAge >= 5 && userAge <= 20 || userAge >= 25 && userAge <= 30 || userAge >= 35 && userAge <= 40 || userAge >= 45 && userAge <= 50 || userAge >= 55 && userAge <= 60 || userAge >= 65 && userAge <= 70 || userAge >= 75 && userAge <= 80 || userAge >= 85 && userAge <= 90 || userAge >= 95 && userAge <= 100) {
+// } else if (remainder == 0 || remainder >= 5 && remainder <= 20 || remainder >= 25 && remainder <= 30 || remainder >= 35 && remainder <= 40 || remainder >= 45 && remainder <= 50 || remainder >= 55 && remainder <= 60 || remainder >= 65 && remainder <= 70 || remainder >= 75 && remainder <= 80 || remainder >= 85 && remainder <= 90 || remainder >= 95) {
 //     alert('Вам' + ' ' + userAge + ' ' + 'років');
 // }
+
+
