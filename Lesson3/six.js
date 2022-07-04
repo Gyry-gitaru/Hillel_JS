@@ -102,10 +102,10 @@
 
 // const init = (firstNameLetter, lastNameLetter, gender) => {
 //     console.log(String(userName))
-//     const isRightArgs = typeof firstNameLetter === "string" && typeof lastNameLetter === "string" && typeof gender === "string";
-//     if (isRightArgs) {
-//         return alert ('Please, enter letters')
-//     }
+    // const isRightArgs = typeof firstNameLetter === "string" && typeof lastNameLetter === "string" && typeof gender === "string";
+    // if (isRightArgs) {
+    //     return alert ('Please, enter letters')
+    // }
 
 //     if (gender === "male") {
 //         return generateName(firstNameLetter.toUpperCase(), lastNameLetter.toUpperCase(), maleNames);
