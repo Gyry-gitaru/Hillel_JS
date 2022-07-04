@@ -1,13 +1,10 @@
-// const numberFirst = parseInt(prompt('Please, enter first number'));
-// const numberSecond = parseInt(prompt('Please, enter second number'));
+const numberFirst = parseInt(prompt('Please, enter first number'));
+const numberSecond = parseInt(prompt('Please, enter second number'));
 
-// for (let i = numberFirst; i >= numberSecond; i--) {
-//     alert(i);
+const start = numberFirst > numberSecond ? numberSecond : numberFirst;
+const end = numberFirst > numberSecond ? numberFirst : numberSecond;
 
-//     for (let j = numberFirst; j <= numberSecond; j++) {
-//         alert(j);
-//     }
-// }
-
-
+for(i = start; i <= end; i++) {
+    alert(i);
+}
 
